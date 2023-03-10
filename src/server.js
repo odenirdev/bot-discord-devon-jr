@@ -9,7 +9,7 @@ function Server() {
 
   this.start = async () => {
     try {
-      await this.webApp.listen({ port: 1337 });
+      await this.webApp.listen({ port: 3000 });
 
       console.log(
         `🔥 Web service is listening on ${this.webApp.server.address().port}`
